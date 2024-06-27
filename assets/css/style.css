@@ -7,7 +7,6 @@
     box-sizing: border-box;
     list-style: none;
 }
-
 section {
    max-height:100vh;
     justify-content: center;
@@ -15,7 +14,6 @@ section {
     display: flex;
     align-items: center;
     align-content: center;
-
 }
 .svg{
     width: 70px;
@@ -32,7 +30,6 @@ margin: 2px;
     margin-left: auto;
     margin-right: auto;
 }
-
 .row {
     display: flex;
     flex-direction: row;
@@ -40,26 +37,22 @@ margin: 2px;
     margin-left: -12px;
     margin-right: -12px;
 }
-
 .col-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .col-5 {
     width: 41.66%;
     padding-left: 12px;
     padding-right: 12px;
 }
-
 .email {
     width: 470px;
     height: 60px;
     border-radius: 100px;
     border-radius: 100px;
     padding: 18px 307px 16px 24px;
-    margin-top: 30px;
     border: 2px solid #EBEAED;
 }
 .image{
@@ -67,11 +60,14 @@ margin: 2px;
 height: 265px;
 top: 230px;
 left: 815px;
-gap: 0px;
-opacity: 0px;
-
 }
-
+.card{width: 470px;
+    height: 381px;
+    top: 230px;
+    left: 815px;
+    gap: 0px;
+    opacity: 0px;
+    }
 .password {
     width: 470px;
     height: 60px;
@@ -82,11 +78,9 @@ opacity: 0px;
     border: 2px solid #EBEAED;
     color: #EBEAED;
 }
-
 .d-flex {
     display: flex;
 }
-
 .button2{
     border-radius: 100px;
     padding: 17px 204px 17px 204px;
@@ -99,10 +93,17 @@ opacity: 0px;
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
-    text-align: center;
-    
+    text-align: center;   
 }
+[placeholder]{
+    font-family: "DM Sans", sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+color: #15143966;
 
+}
 .head {
     font-family: "DM Sans", sans-serif;
     font-size: 24px;
@@ -118,7 +119,6 @@ opacity: 0px;
 .aline-item-center{
     align-items: center;
 }
-
 .space-between{
     justify-content: space-between;
 }
@@ -131,23 +131,22 @@ opacity: 0px;
 .ml-407{
     margin-left: 326px;
 }
-
 .DM-Sans {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
+    color: #15143966;
     line-height: 28px;
     text-align: left;
 
 }
-
 .DM-Sans1 {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     line-height: 28px;
+    color: #15143966;
     text-align: right;
 
 }
-
 .button1 {
     width: 100px;
     height: 40px;
@@ -157,7 +156,6 @@ opacity: 0px;
     border: 2px solid #25DAC5;
     cursor: pointer;
 }
-
 .para {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
@@ -167,12 +165,10 @@ opacity: 0px;
     width: 445px;
     margin-top: 17px;
 }
-
 h3 {
     width: 600px;
     height: 156px;
-    top: 217px;
-    left: 115px;
+margin-bottom: 77px;
     font-family: "DM Sans", sans-serif;
     font-size: 43px;
     line-height: 52px;
@@ -181,26 +177,23 @@ h3 {
     color: #1E0E62;
     margin-top: 110px;
 }
-
 .photo {
     align-items: right;
     margin-top: 123px;
     margin-left: 100px;
 }
-
 .posi-re{
     position: relative;
 }
-
 .transform{
     position: absolute;
     top: 50%;
-    right: 43%;
-    left: 58%;
+    right: 50%;
+    left: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 .icon {
-
     width: 70px;
     height: 70px;
     top: 328px;
@@ -209,16 +202,45 @@ h3 {
 nav{
 margin-top: 67px;
 }
-
 .text {
     font-size: 18px;
     font-family: "DM Sans", sans-serif;
     line-height: 28px;
     text-align: left;
-    width: 350px;
+    width: 452px;
     height: 112px;
     margin-top: 32px;
     color: #15143966;
     margin-left:100px;
 margin-right: 120px;
 }
+.dropbtn {
+    background-color: white;
+    color:#A1A1B0;
+ margin-right: -25px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {display: block;
+}
+  
